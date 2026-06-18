@@ -1,0 +1,12 @@
+# Dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Secrets
+backend/.env
+frontend/.env
+
+# OS files
+.DS_Store
+
+backend/uploads/
