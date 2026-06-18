@@ -23,7 +23,7 @@ function App() {
     setStatus("Running File Layout Extractions...");
 
     try {
-      const res = await fetch("http://localhost:3000/upload", {
+      const res = await fetch("https://resume-verification-backend.onrender.com/upload", {
         method: "POST",
         body: formData,
       });
